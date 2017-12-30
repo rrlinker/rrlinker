@@ -1,0 +1,12 @@
+[submodule "librlcom"]
+	path = librlcom
+	url = git@github.com:rrlinker/librlcom.git
+[submodule "svclinker"]
+	path = svclinker
+	url = git@github.com:rrlinker/svclinker.git
+[submodule "libclient"]
+	path = libclient
+	url = git@github.com:rrlinker/libclient.git
+[submodule "client_example"]
+	path = client_example
+	url = git@github.com:rrlinker/client_example.git
