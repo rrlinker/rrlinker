@@ -1,12 +1,16 @@
 [submodule "librlcom"]
 	path = librlcom
 	url = git@github.com:rrlinker/librlcom.git
+	branch = master
 [submodule "svclinker"]
 	path = svclinker
 	url = git@github.com:rrlinker/svclinker.git
+	branch = master
 [submodule "libclient"]
 	path = libclient
 	url = git@github.com:rrlinker/libclient.git
+	branch = master
 [submodule "client_example"]
 	path = client_example
 	url = git@github.com:rrlinker/client_example.git
+	branch = master
