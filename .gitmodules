@@ -2,6 +2,10 @@
 	path = librlcom
 	url = git@github.com:rrlinker/librlcom.git
 	branch = master
+[submodule "librlc"]
+	path = librlc
+	url = git@github.com:rrlinker/librlc.git
+	branch = master
 [submodule "svclinker"]
 	path = svclinker
 	url = git@github.com:rrlinker/svclinker.git
