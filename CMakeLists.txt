@@ -30,6 +30,7 @@ function(add_target)
             WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
             COMMAND "${CMAKE_COMMAND}"
                 ${ADD_ARGS}
+                -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
                 -S "${CMAKE_SOURCE_DIR}/${_NAME}"
                 -B "${CMAKE_SOURCE_DIR}/${_NAME}/build/${ARCH}"
                 -G "${CMAKE_GENERATOR}"
