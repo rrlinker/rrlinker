@@ -1,18 +1,18 @@
-[submodule "librlcom"]
-	path = librlcom
-	url = git@github.com:rrlinker/librlcom.git
+[submodule "librrlcom"]
+	path = librrlcom
+	url = git@github.com:rrlinker/librrlcom.git
 	branch = master
 [submodule "librlc"]
-	path = librlcrypto
-	url = git@github.com:rrlinker/librlcrypto.git
+	path = librrlcrypto
+	url = git@github.com:rrlinker/librrlcrypto.git
 	branch = master
-[submodule "svclinker"]
-	path = svclinker
-	url = git@github.com:rrlinker/svclinker.git
+[submodule "svcrrlinker"]
+	path = svcrrlinker
+	url = git@github.com:rrlinker/svcrrlinker.git
 	branch = master
-[submodule "libclient"]
-	path = libclient
-	url = git@github.com:rrlinker/libclient.git
+[submodule "librrlclient"]
+	path = librrlclient
+	url = git@github.com:rrlinker/librrlclient.git
 	branch = master
 [submodule "client_example"]
 	path = client_example

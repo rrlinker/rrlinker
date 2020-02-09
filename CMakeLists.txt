@@ -44,30 +44,30 @@ function(add_target)
 endfunction()
 
 add_target(
-    NAME librlcom
+    NAME librrlcom
     OS Windows Linux
 )
 
 add_target(
-    NAME librlcrypto
-    DEPENDS librlcom
+    NAME librrlcrypto
+    DEPENDS librrlcom
     OS Windows Linux
 )
 
 add_target(
-    NAME libclient
-    DEPENDS librlcom
+    NAME librrlclient
+    DEPENDS librrlcom
     OS Windows
 )
 
 add_target(
     NAME client_example
-    DEPENDS libclient librlcom
+    DEPENDS librrlclient librrlcom
     OS Windows
 )
 
 add_target(
-    NAME svclinker
-    DEPENDS librlcrypto librlcom
+    NAME svcrrlinker
+    DEPENDS librrlcrypto librrlcom
     OS Linux
 )
